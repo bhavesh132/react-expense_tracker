@@ -1,0 +1,75 @@
+.form{
+    border-bottom: 4px solid rgba(21, 21, 201, 0.8) !important;
+}
+
+.form-head{
+    margin-top: 10px;
+}
+
+.assets{
+    font-size: 2rem;
+}
+
+.form-input{
+    width: 90%;
+    height: 2rem;
+    border:none;
+    background-color:transparent;
+    border-bottom: 1px solid rgba(21, 21, 201, 0.8);
+    outline:none;
+    margin: 10px 1rem;
+    line-height: 1;
+    font-size: 1rem;;
+}
+
+.form-input:focus ~ label, .form-input:valid ~ label{
+    transform: translateY(-18px);
+    font-size: small;
+}
+
+.form-input:focus{
+    border-bottom: 2px solid rgba(21, 21, 201, 0.8);
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-icon{
+    position: absolute;
+    top: 13px;
+    left: 08px;
+}
+
+label{
+    left: 20px;
+    top: 15px;
+    position: absolute;
+    transition: all ease 0.3s;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add{
+    width: 50%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: rgba(21, 21, 201, 0.8);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;   
+    margin-bottom: 10px;
+    transition: all ease 0.5s;
+}
+
+.btn-add:hover{
+    transform: scale(1.09);
+    border: 1px solid rgba(21, 21, 201, 0.8);
+    color:rgba(21, 21, 201, 0.8);
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.asset-box{
+    border-bottom: 1px solid rgba(10,10,10,0.3);
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.delete-btn{
+    color: rgba(180,10,10,0.99);
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all ease 0.1s;
+}
+
+.delete-btn:hover{
+    transform: scale(5.1);
+}
+
+.sub-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
